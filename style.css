@@ -1,15 +1,10 @@
-@media (max-width: 1000px) {
     html {
         font-size: 140%;
     }
     body {
         font-size: 1.4rem;        
+        -webkit-text-size-adjust: 100%;
     }
     .row {
         width: 100vw;
     }
-}
-
-body {
-    -webkit-text-size-adjust: 100%;
-}
