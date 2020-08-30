@@ -1,0 +1,125 @@
+<html>
+    <head>
+        <title>Requirement</title>
+        <!-- CSS only -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <!-- JS, Popper.js, and jQuery -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="container background">
+            <div class="row">
+                <div class="col-sm-auto"></div>
+                <div class="col text-center">
+                    コンビニリクエストシート
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col text-center">
+                    有料レジ袋
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center">
+                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                        <label class="btn btn-outline-primary">
+                            <input type="radio" name="options" id="option1-1">必要です
+                        </label>
+                        <label class="btn btn-outline-primary active">
+                            <input type="radio" name="options" id="option1-2" checked>不要です
+                        </label>
+                    </div>    
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col text-center">
+                    ポイントカード
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center">
+                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                        <label class="btn btn-outline-primary active">
+                            <input type="radio" name="options" id="option2-1" checked>持ってます
+                        </label>
+                        <label class="btn btn-outline-primary">
+                            <input type="radio" name="options" id="option2-2" >持っていません
+                        </label>
+                    </div>    
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col text-center">
+                    欲しいものリスト
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox1">お箸</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                        <label class="form-check-label" for="inlineCheckbox2">スプーン</label>
+                    </div>                      
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                        <label class="form-check-label" for="inlineCheckbox2">フォーク</label>
+                    </div>                      
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                        <label class="form-check-label" for="inlineCheckbox2">ストロー</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                        <label class="form-check-label" for="inlineCheckbox2">お手拭き</label>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col text-center">
+                    温め
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center">
+                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                        <label class="btn btn-outline-primary active">
+                            <input type="radio" name="options" id="option3-1">お願いします
+                        </label>
+                        <label class="btn btn-outline-primary">
+                            <input type="radio" name="options" id="option3-2" checked>不要です
+                        </label>
+                    </div>    
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col text-center">
+                    支払い方法
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center">
+                    <select class="custom-select">
+                        <option selected>支払方法</option>
+                        <option value="1">現金</option>
+                        <option value="2">クレジットカード</option>
+                        <option value="3">交通系IC</option>
+                        <option value="4">QRコード決済</option>
+                        <option value="5">iD</option>
+                        <option value="6">QuickPay</option>
+                    </select>
+                </div>
+            </div>
+            <br>
+        </div>    
+    </body>
+</html>
