@@ -1,5 +1,6 @@
 @media (max-width: 767.98px) {
-    .col {
+    .row {
         width: 100vw;
+        font-size: 1.4rem;
     }
 }

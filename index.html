@@ -10,7 +10,7 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     </head>
     <body>
-        <div class="container">
+        <div id="main" class="container">
             <div class="row" width="100%">
                 <div class="col text-center">
                     コンビニリクエストシート
@@ -59,28 +59,30 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col text-center">
-                    <div class="form-check form-check-inline">
+                <div class="col-4"></div>
+                <div class="col">
+                    <div class="form-check">
                         <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                        <label class="form-check-label" for="inlineCheckbox1">お箸</label>
+                        <label class="form-check-label" for="inlineCheckbox1">お箸　　</label>
                     </div>
-                    <div class="form-check form-check-inline">
+                    <div class="form-check">
                         <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
                         <label class="form-check-label" for="inlineCheckbox2">スプーン</label>
                     </div>                      
-                    <div class="form-check form-check-inline">
+                    <div class="form-check">
                         <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
                         <label class="form-check-label" for="inlineCheckbox2">フォーク</label>
                     </div>                      
-                    <div class="form-check form-check-inline">
+                    <div class="form-check">
                         <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
                         <label class="form-check-label" for="inlineCheckbox2">ストロー</label>
                     </div>
-                    <div class="form-check form-check-inline">
+                    <div class="form-check">
                         <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
                         <label class="form-check-label" for="inlineCheckbox2">お手拭き</label>
                     </div>
                 </div>
+                <div class="col-4"></div>
             </div>
             <br>
             <div class="row">
@@ -120,6 +122,7 @@
                 </div>
             </div>
             <br>
-        </div>    
+        </div>
+        <script type="text/javascript" src="app.js"></script>    
     </body>
 </html>
