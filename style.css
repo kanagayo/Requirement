@@ -4,3 +4,6 @@
         font-size: 1.4rem;
     }
 }
+body {
+    -webkit-text-size-adjust: 100%;
+}
